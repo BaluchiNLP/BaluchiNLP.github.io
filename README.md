@@ -19,6 +19,38 @@ Uppsala University has conducted extensive Baluchi-English translation work, res
 ### 2. Technology Development
 - **Neural Machine Translation**: Introduction to the Transformer-based NMT model for Baluchi, including back translation techniques.
 
+#### An example of base Transformer model: 
+An example to understand how a Transformer model works in Neural Machine Translation (NMT) from English to Baluchi. The Transformer model consists of several key components: the embedding layer, positional encoding, the encoder, the decoder, and finally, the output layer.
+In this revised example, the English sentence "Two people came to our home and had dinner with us last night" is translated into Baluchi as "Do mardom dóshi may lógá átk o gón má shámesh kort". Here's how the process is adapted:
+
+### 1. Input Embedding
+- **Action**: The input sentence is split into tokens (words or subwords), and each token is converted into a high-dimensional vector using an embedding layer. 
+- **Example**: `["Two", "people", "came", "to", "our", "home", "and", "had", "dinner", "with", "us", "last", "night"]` -> `[Vector(Two), Vector(people), Vector(came), Vector(to), Vector(our), Vector(home), Vector(and), Vector(had), Vector(dinner), Vector(with), Vector(us), Vector(last), Vector(night)]`
+
+### 2. Positional Encoding
+- **Action**: Since Transformers do not have a recurrence mechanism like RNNs, positional encodings are added to the embeddings to give the model information about the order of the words.
+- **Example**: The vectors from the previous step are modified to encode the position of each word in the sentence.
+
+### 3. Encoder
+- **Action**: The encoder processes the sentence in parallel. It consists of multiple layers, each containing two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. 
+    - **Self-Attention**: Helps the encoder look at other words in the input sentence while encoding a specific word.
+    - **Feed-Forward Network**: Processes the output from the attention mechanism.
+- **Example**: Each word's embedding, now with positional information, is transformed, considering the context provided by the rest of the sentence.
+
+### 4. Decoder
+- **Action**: The decoder also has multiple layers but with an additional sub-layer for attention over the encoder's output. During training, the decoder is given the target sentence up to the current word and predicts the next word.
+    - **Masked Self-Attention**: Prevents the decoder from peeking at future tokens in the target sentence.
+    - **Encoder-Decoder Attention**: Allows the decoder to focus on relevant parts of the input sentence.
+- **Example**: Starts with the start-of-sentence token and predicts the first word in Baluchi, then uses the predicted words to predict the next word until the end-of-sentence token is predicted.
+
+### 5. Output Layer
+- **Action**: The decoder's output is transformed into a vector of scores for each word in the target vocabulary. A softmax function is then applied to get probabilities for each word being the next correct word in the translation.
+- **Example**: The output vector for the first predicted word is converted into probabilities, and the word with the highest probability is chosen as the first word of the translated sentence.
+
+### 6. Generation of the Translation
+- **Action**: This process is repeated for each word in the target sentence until the model predicts the end-of-sentence token or reaches a maximum length.
+- **Example**: `["Do", "mardom", "dóshi", "may", "lógá", "átk", "o", "gón", "má", "shámesh", "kort"]`
+
 ## Part 2: Data Management
 ### 1. Data Collection
 - **Sources**: Identifying and gathering parallel text data in both Baluchi and English from various sources like news articles, books, and websites.
