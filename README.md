@@ -37,6 +37,13 @@ Depending on computational resources, might need to limit the dataset size for t
 Choose a format compatible with chosen NMT framework. Common formats include plain text files with aligned sentences, tab-separated value (TSV) files, or JSON files.
 Keep track of the preprocessing steps, filtering criteria, and any specific characteristics of the data for future reference.
 
+### Data augmentation: 
+Techniques like back-translation (generating synthetic training data by translating English text back to Baluchi) can help improve model performance with limited data.
+
+### Tokenizer
+Pre-existing tools [Wordpiece](https://blog.research.google/2021/12/a-fast-wordpiece-tokenization-system.html) or [SentencePiece]([https://github.com/google/sentencepiece]) for preprocessing and tokenization tasks.
+
+[Tokenizer Tutorial](https://huggingface.co/transformers/v3.4.0/tokenizer_summary.html)
 
 ### Framework and Model:
 - Opensource NMT include:
