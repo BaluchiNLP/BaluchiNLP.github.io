@@ -9,9 +9,7 @@ Mukhtar Hussain
 ## Part 1: Preparation and Planning
 ### 1. Language Documentation
 - **Language Resources Development**: Numerous organizations, academic institutions, academies, and publishers are actively engaged in developing resources for the Baluchi language, including books, literature, and dictionaries. A substantial amount of Baluchi text data is available from these sources. However, one of the primary challenges in data collection is securing reliable texts. A significant issue is the lack of standardization in Baluchi text; not all authors adhere to a uniform set of rules for writing, indicating the absence of a standardized method for Baluchi written text. This diversity in writing styles complicates efforts to compile and utilize Baluchi language resources effectively.
-
 Building on these efforts, individual initiatives have also been undertaken to translate texts between Baluchi and English, further enriching the language's resources. Notably, the Department of Linguistics and Philology at Uppsala University has achieved significant progress in developing a standardized written form of Baluchi. This endeavor marks a crucial step towards resolving the standardization issue and facilitates a more unified approach to writing and translating the Baluchi language.
-
 Uppsala University has conducted extensive Baluchi-English translation work, resulting in the publication of books featuring Baluchi-English translated texts, as well as Baluchi-English dictionaries. Such resources are invaluable for developing Neural Machine Translation (NMT) systems, which require parallel texts like those translating between Baluchi and English. The translated texts sourced from Uppsala, along with contributions from other organizations and individuals, will significantly bolster the progress of this project, facilitating the creation of a more robust and accurate NMT system for the Baluchi language.
 
 
