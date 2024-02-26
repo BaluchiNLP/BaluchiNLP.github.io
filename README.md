@@ -19,7 +19,7 @@ Uppsala University has conducted extensive Baluchi-English translation work, res
 ### 2. Technology Development
 - **Neural Machine Translation**: Introduction to the Transformer-based NMT model for Baluchi, including back translation techniques.
 
-#### An example of base Transformer model: 
+- **An example of base Transformer model**: 
 An example to understand how a Transformer model works in Neural Machine Translation (NMT) from English to Baluchi. The Transformer model consists of several key components: the embedding layer, positional encoding, the encoder, the decoder, and finally, the output layer.
 In this example, the English sentence "Two people came to our home and had dinner with us last night" is translated into Baluchi as "Do mardom dóshi may lógá átk o gón má shámesh kort". Here's how the process is adapted:
 
