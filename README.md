@@ -16,7 +16,13 @@ Transformer-based NMT model for Baluchi to English and back translation.
   - [Marian NMT](https://marian-nmt.github.io/)
   - [FairSeq](https://github.com/facebookresearch/fairseq)
   - [OpenNMT](https://github.com/OpenNMT)
-  - [Transformers library](https://huggingface.co/docs/transformers/en/index)
+ 
+- Transformer model:
+  There are various Transformer architectures like:
+  - [The base Transformer](https://huggingface.co/docs/transformers/en/index)
+  - [Transformer-XL](https://huggingface.co/docs/transformers/model_doc/transfo-xl)
+  - [T5](https://paperswithcode.com/method/t5)
+
 
 
 
