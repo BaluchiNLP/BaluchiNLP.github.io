@@ -14,7 +14,7 @@ Transformer-based NMT model for Baluchi to English and back translation.
 #### Framework and Model:
 - Opensource NMT include:
   - [Marian NMT](https://marian-nmt.github.io/)
-  - - [FairSeq](https://github.com/facebookresearch/fairseq) includes pretrained models for Neural Machine Translation and Neural Language Modeling.
+  - [FairSeq](https://github.com/facebookresearch/fairseq) includes pretrained models for Neural Machine Translation and Neural Language Modeling.
 
   - [OpenNMT](https://github.com/OpenNMT)
  
