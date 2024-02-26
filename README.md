@@ -17,7 +17,8 @@ Transformer-based NMT model for Baluchi to English and back translation.
   Cleaning the text, removing noise and irrelevant characters, tokenizing words, and converting everything to lowercase. Might also need to handle specific challenges like diacritics and named entities in Baluchi text.
 
 #### Framework and Model:
-Opensource NMT include Marian NMT (https://github.com/facebookresearch/fairseq), OpenNMT (https://github.com/OpenNMT), and the Transformers library (https://huggingface.co/docs/transformers/en/index). 
+Opensource NMT include Marian NMT [Marian NMT](https://marian-nmt.github.io/), FairSeq ([FairSeq](https://github.com/facebookresearch/fairseq)), OpenNMT ([OpenNMT](https://github.com/OpenNMT)), and the Transformers library ([Transformers library](https://huggingface.co/docs/transformers/en/index)).
+
 
 
 
