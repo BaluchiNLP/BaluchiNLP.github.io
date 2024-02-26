@@ -21,7 +21,7 @@ Uppsala University has conducted extensive Baluchi-English translation work, res
 
 #### An example of base Transformer model: 
 An example to understand how a Transformer model works in Neural Machine Translation (NMT) from English to Baluchi. The Transformer model consists of several key components: the embedding layer, positional encoding, the encoder, the decoder, and finally, the output layer.
-In this revised example, the English sentence "Two people came to our home and had dinner with us last night" is translated into Baluchi as "Do mardom dóshi may lógá átk o gón má shámesh kort". Here's how the process is adapted:
+In this example, the English sentence "Two people came to our home and had dinner with us last night" is translated into Baluchi as "Do mardom dóshi may lógá átk o gón má shámesh kort". Here's how the process is adapted:
 
 ##### 1. Input Embedding
 - **Action**: The input sentence is split into tokens (words or subwords), and each token is converted into a high-dimensional vector using an embedding layer. 
