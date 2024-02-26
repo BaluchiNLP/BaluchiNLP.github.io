@@ -11,9 +11,9 @@ Dictionaries, grammar guides, and language learning resources.
 
 #### Neural Machine Translation
 Transformer-based NMT model for Baluchi to English and back translation.
-##### Data Collection and Preprocessing:
+#### Data Collection
   Need parallel text data in both Baluchi and English. This can include news articles, books, websites, or any other source with aligned sentences in both languages.
-##### Data Preprocessing:
+#### Data Preprocessing:
   Cleaning the text, removing noise and irrelevant characters, tokenizing words, and converting everything to lowercase. Might also need to handle specific challenges like diacritics and named entities in Baluchi text.
 
 #### Framework and Model:
