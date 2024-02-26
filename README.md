@@ -1,10 +1,10 @@
-**Authors:**  
+**Authors:**<br>
 Mazhar Mohsin 
 and 
 Mukhtar Hussain
 
 ## Introduction
-**Overview**: Implementing a Transformer-based NMT model for Baluchi is a complex task requiring expertise in machine learning, natural language processing, and the Baluchi language. This repository provides comprehensive information and resources necessary for building an efficient NMT system tailored for the Baluchi language.
+**Overview**: Implementing a Transformer-based NMT model for Baluchi is a complex task requiring expertise in machine learning, natural language processing, and the Baluchi language. This repository provides comprehensive information and resources necessary for building an efficient NMT system for Baluchi language.
 
 ## Part 1: Preparation and Planning
 ### 1. Language Documentation
