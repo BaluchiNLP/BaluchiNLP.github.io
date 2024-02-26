@@ -1,5 +1,6 @@
 **Authors:**  
-Mazhar Mohsin
+Mazhar Mohsin 
+and 
 Mukhtar Hussain
 
 ## Introduction
