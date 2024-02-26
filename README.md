@@ -1,3 +1,6 @@
+This is a complex project that requires expertise in various areas like machine learning, natural language processing, and the Baluchi language.
+
+
 ### 1. Language Documentation
 #### Language Resources Development
 Dictionaries, grammar guides, and language learning resources.
@@ -10,6 +13,17 @@ Transformer-based NMT model for Baluchi to English and back translation.
   Need parallel text data in both Baluchi and English. This can include news articles, books, websites, or any other source with aligned sentences in both languages.
 #### Data Preprocessing:
   Cleaning the text, removing noise and irrelevant characters, tokenizing words, and converting everything to lowercase. Might also need to handle specific challenges like diacritics and named entities in Baluchi text.
+  ##### Split the text: 
+  Separate the Baluchi and English sentences into individual files or datasets.
+  ##### Clean the text: 
+  Remove irrelevant characters, punctuation, and special symbols that might interfere with the model's learning. This might include HTML tags, line breaks, and extra spaces.
+##### Convert to lowercase: 
+Most NLP models work better with lowercase text.
+##### Handle diacritics: 
+If Baluchi text contains diacritics, decide whether to remove them, normalize them, or keep them. Consider the linguistic importance of diacritics in Baluchi and the potential impact on translation quality.
+##### Tokenize the text: 
+Break the sentences into individual words or subword units (e.g., characters) based on chosen framework and model requirements.
+
 
 #### Framework and Model:
 - Opensource NMT include:
