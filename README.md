@@ -13,9 +13,9 @@ Transformer-based NMT model for Baluchi to English and back translation.
   Need parallel text data in both Baluchi and English. This can include news articles, books, websites, or any other source with aligned sentences in both languages.
 ### Data Preprocessing:
   Cleaning the text, removing noise and irrelevant characters, tokenizing words, and converting everything to lowercase. Might also need to handle specific challenges like diacritics and named entities in Baluchi text.
-  #### Split the text: 
+#### Split the text: 
   Separate the Baluchi and English sentences into individual files or datasets.
-  #### Clean the text: 
+#### Clean the text: 
   Remove irrelevant characters, punctuation, and special symbols that might interfere with the model's learning. This might include HTML tags, line breaks, and extra spaces.
 #### Convert to lowercase: 
 Most NLP models work better with lowercase text.
@@ -23,21 +23,21 @@ Most NLP models work better with lowercase text.
 If Baluchi text contains diacritics, decide whether to remove them, normalize them, or keep them. Consider the linguistic importance of diacritics in Baluchi and the potential impact on translation quality.
 #### Tokenize the text: 
 Break the sentences into individual words or subword units (e.g., characters) based on chosen framework and model requirements.
-### Aligning Sentences:
+#### Aligning Sentences:
 Ensure that each sentence in the Baluchi file corresponds to its exact translation in the English file. This is crucial for parallel training of the NMT model.
 If data doesn't have automatic alignment information, might need to manually align the sentences using tools like [Hunalign](https://github.com/danielvarga/hunalign) or manually line them up in a spreadsheet.
 
 
-### Filtering and Sampling:
+#### Filtering and Sampling:
 Remove sentences with missing information, inconsistencies, or excessive noise.
 If dataset is imbalanced (e.g., many short sentences and few long ones), consider sampling or oversampling techniques to ensure the model is exposed to diverse sentence lengths.
 Depending on computational resources, might need to limit the dataset size for training. Consider starting with a smaller subset and gradually increasing as model improves.
 
-### Saving and Formatting:
+#### Saving and Formatting:
 Choose a format compatible with chosen NMT framework. Common formats include plain text files with aligned sentences, tab-separated value (TSV) files, or JSON files.
 Keep track of the preprocessing steps, filtering criteria, and any specific characteristics of the data for future reference.
 
-### Data augmentation: 
+#### Data augmentation: 
 Techniques like back-translation (generating synthetic training data by translating English text back to Baluchi) can help improve model performance with limited data.
 
 ### Tokenizer
