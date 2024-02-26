@@ -1,18 +1,21 @@
+# Introduction
+## Overview
+Implementing a Transformer-based NMT model for Baluchi is a complex task that requires expertise in machine learning, natural language processing, and understanding the Baluchi language. This repository aims to provide comprehensive information and resources necessary for building an efficient NMT system tailored for the Baluchi language.
 
-Implementing a Transformer-based NMT model for Baluchi is a complex task that requires expertise in machine learning, natural language processing, and the Baluchi language. This repository contains information about the development and resources necessary for building an efficient NMT system for the Baluchi language. From detailed language documentation, technology development strategies, to practical guides on data collection and preprocessing, this guide aims to equip researchers and developers with the knowledge and tools needed to navigate the challenges of NMT model implementation. It also provides insights into the selection of appropriate frameworks and models, strategies for training and fine-tuning the model, and methods for evaluating and refining its performance to ensure high-quality translations between Baluchi and English.
-
-
+# Part 1: Preparation and Planning
 ## 1. Language Documentation
 ### Language Resources Development
-Dictionaries, grammar guides, and language learning resources.
+Compilation of dictionaries, grammar guides, and language learning resources to support the NMT model development.
 
 ## 2. Technology Development
 
 ### Neural Machine Translation
 Transformer-based NMT model for Baluchi to English and back translation.
-### Data Collection
+
+# Part 2: Data Management
+## 1. Data Collection
   Need parallel text data in both Baluchi and English. This can include news articles, books, websites, or any other source with aligned sentences in both languages.
-### Data Preprocessing:
+## 2. Data Preprocessing:
   Cleaning the text, removing noise and irrelevant characters, tokenizing words, and converting everything to lowercase. Might also need to handle specific challenges like diacritics and named entities in Baluchi text.
 #### Split the text: 
   Separate the Baluchi and English sentences into individual files or datasets.
@@ -41,6 +44,7 @@ Keep track of the preprocessing steps, filtering criteria, and any specific char
 #### Data augmentation: 
 Techniques like back-translation (generating synthetic training data by translating English text back to Baluchi) can help improve model performance with limited data.
 
+# Part 3: Model Development and Training
 ### Tokenizer
 Tokenization is a crucial preprocessing step in Natural Language Processing (NLP) and Machine Translation (MT), where text is split into meaningful units such as words, phrases, or symbols. This step is essential for transforming natural language into a form that a machine learning model can understand and process.
 
@@ -69,7 +73,7 @@ Experiment with different hyperparameters like learning rate, batch size, and op
 #### Monitor training: 
 Metrics like BLEU score, ROUGE score, and translation quality to assess model's progress.
 
-###  Evaluation and Refinement:
+# Part 4: Evaluation and Refinement
 Test model on a held-out set of Baluchi-English sentences that it hasn't seen during training. This will give a more realistic picture of its generalizability.
 Identify common errors made by model and try to understand the reasons behind them. Use this information to refine training data, model architecture, or hyperparameters.
 
