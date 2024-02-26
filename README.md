@@ -1,4 +1,5 @@
-This is a complex project that requires expertise in various areas like machine learning, natural language processing, and the Baluchi language.
+
+Implementing a Transformer-based NMT model for Baluchi is a complex task that requires expertise in machine learning, natural language processing, and the Baluchi language. This repository contains information about the development and resources necessary for building an efficient NMT system tailored for the Baluchi language. From detailed language documentation, technology development strategies, to practical guides on data collection and preprocessing, this comprehensive guide aims to equip researchers and developers with the knowledge and tools needed to navigate the challenges of NMT model implementation. It also provides insights into the selection of appropriate frameworks and models, strategies for training and fine-tuning the model, and methods for evaluating and refining its performance to ensure high-quality translations between Baluchi and English.
 
 
 ## 1. Language Documentation
