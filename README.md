@@ -27,6 +27,11 @@ The integration of tokenization into the pipeline of transformer-based language 
 
 Languages with high morphological complexity benefit from efficient tokenization strategies. Experiment with different subword tokenization methods (e.g., Byte Pair Encoding (BPE), SentencePiece) that can better capture the morphology of the language. Adjusting the tokenization can significantly impact the model’s ability to understand and translate text in morphologically rich languages.
 
+Tokenization can be done at the word level, character level, or subword level:
+- **Word-level:**: This is simple and interpretable, but might miss nuances of morphology and diacritics.
+- **Character-level:**: Captures all information, including diacritics, but can be less efficient for large models and might not handle complex morphology well.
+- **Subword-level:**: Offers a balance between granularity and efficiency, handling diacritics and morphology while being suitable for large models.
+
 
 
 - **Tools and Tutorials**: Utilizing pre-existing tools like Wordpiece or SentencePiece for preprocessing and tokenization tasks. [Tokenizer Tutorial](https://huggingface.co/transformers/v3.4.0/tokenizer_summary.html)
