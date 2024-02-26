@@ -28,6 +28,14 @@ Ensure that each sentence in the Baluchi file corresponds to its exact translati
 If data doesn't have automatic alignment information, might need to manually align the sentences using tools like [Hunalign](https://github.com/danielvarga/hunalign) or manually line them up in a spreadsheet.
 
 
+### Filtering and Sampling:
+Remove sentences with missing information, inconsistencies, or excessive noise.
+If dataset is imbalanced (e.g., many short sentences and few long ones), consider sampling or oversampling techniques to ensure the model is exposed to diverse sentence lengths.
+Depending on computational resources, might need to limit the dataset size for training. Consider starting with a smaller subset and gradually increasing as model improves.
+
+### Saving and Formatting:
+Choose a format compatible with chosen NMT framework. Common formats include plain text files with aligned sentences, tab-separated value (TSV) files, or JSON files.
+Keep track of the preprocessing steps, filtering criteria, and any specific characteristics of the data for future reference.
 
 
 ### Framework and Model:
