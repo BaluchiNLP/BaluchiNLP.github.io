@@ -29,8 +29,15 @@ Languages with high morphological complexity benefit from efficient tokenization
 
 Tokenization can be done at the word level, character level, or subword level:
 - **Word-level:**: This is simple and interpretable, but might miss nuances of morphology and diacritics.
-- **Character-level:**: Captures all information, including diacritics, but can be less efficient for large models and might not handle complex morphology well.
-- **Subword-level:**: Offers a balance between granularity and efficiency, handling diacritics and morphology while being suitable for large models.
+- **Character-level:** Captures all information, including diacritics, but can be less efficient for large models and might not handle complex morphology well.
+- **Subword-level:** Offers a balance between granularity and efficiency, handling diacritics and morphology while being suitable for large models.
+
+- **Some Considerations about Tokenizers:**
+-  Does the tokenizer offer pre-trained models for languages similar to Baluchi?
+-  Does it have good documentation and support for handling diacritics?
+-  Is the tokenizer easy to use with the chosen NMT framework?
+
+
 
 
 
