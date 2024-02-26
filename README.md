@@ -41,7 +41,7 @@ Keep track of the preprocessing steps, filtering criteria, and any specific char
 Techniques like back-translation (generating synthetic training data by translating English text back to Baluchi) can help improve model performance with limited data.
 
 ### Tokenizer
-Pre-existing tools [Wordpiece](https://blog.research.google/2021/12/a-fast-wordpiece-tokenization-system.html) or [SentencePiece]([https://github.com/google/sentencepiece]) for preprocessing and tokenization tasks.
+Pre-existing tools [Wordpiece](https://blog.research.google/2021/12/a-fast-wordpiece-tokenization-system.html) or [SentencePiece](https://github.com/google/sentencepiece) for preprocessing and tokenization tasks.
 
 [Tokenizer Tutorial](https://huggingface.co/transformers/v3.4.0/tokenizer_summary.html)
 
